@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    background-color: rgb(183, 179, 174);
+    padding: 10px;
+   
+    
+}
+h1{
+    color: black;
+}
+#inp-text{
+    padding: 3px;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box;
+}
+#inp-text::placeholder{
+    color: black;
+}
+#inp-btn{
+    padding: 3px;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0px 8px 8px 0px;
+    box-sizing: border-box;
+    background-color: red;
+    border: 2px solidred;
+}
+#cont{
+
+}
+#cont p{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3px;
+}
+/* #input{
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #000;
+} */
